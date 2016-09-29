@@ -1,10 +1,78 @@
-<html>
-<head> 
-  <title> Serious Test Page </title>
-  </head>
-  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Tiger</title>
+	<meta name="description" content="Hello World">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<!--Angular-->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="script.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</script>
+
+
+</head>
+
 <body>
-  <p> This is a serious test page lol </p>
-  </body>
-  
- </html>
+  <header>
+    <div class="navbar navbar-default navbar-fixed top" style="background-color = black">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data target="example">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+          </button>
+          <a href="" class="navbar-brand">Donald Trump</a>
+	      </div>
+
+        <div class="collapse navbar-collapse navbar-right" id="example">
+					<ul class="nav navbar-nav" >
+						<li id="about" class="active"><a href="#about" class="navtext" id="aboutLoad">About Me</a></li>
+						<li id="resume"><a href="#resume" class ="navtext" id="resumeLoad">Resume</a></li>
+						<li id="portfolio"><a href="#portfolio" class="navtext" id="portfolioLoad">Portfolio</a></li>
+						<li id="contact" ><a href="#contactme" class="navtext" id="contactLoad">Contact Me</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+<!--jumbotron -->
+<div class="jumbotron text-center" id="jumbotron">
+  <div class = "container-fluid" style="padding-top:236px" >
+    <img class="headerimg" style="padding-top:" src="img/profpic.jpg">
+    <h1 class="headertext" style="color: white">Donald Trump</h1>
+  </div>
+</div>
+
+<!-- About -->
+<div class="container" id="about">
+  <ul class="nav nav-pills nav-justified">
+    <li class="active"><a class="tabtext" href="#myself" data-toggle:"tab">Yeah</a></li>
+    <li><a class="tabtext" href="#skills" data-toggle="tab">My skills</a></li>
+	</ul>
+	<br>
+	<div class="tab-content">
+		<div class="tab-pane fade in active"  id="myself">
+			<div class="row">
+				<div class="col-xs-4 hidden-xs"><img src="http://www.engineering.utoronto.ca/wp-content/blogs.dir/28/files/2015/03/FASE-Signature-2010.png"></div>
+				<div class="col-xs-offset-2 col-xs-8 col-lg-6"><p class="intabtext" style="font-size: 25px;">Make America a better place</p></div>
+      </div>
+      <div class="tab-pane fade text-left" id="skills">
+        <p>
+          I am Donald Trump
+        </p>
+      </div>
+    </div>
+  </div>
