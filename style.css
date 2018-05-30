@@ -154,17 +154,22 @@ image.loading .modal-load{
   font-size: 75px;
   text-align: left;
   font-weight: bold;
-  line-height: 1.2;
-  margin-top: 0px;
 }
 
 .navbar{
-  margin-top: 15px;
-  margin-bottom: 15px;
+    padding: 1rem 1rem;
 }
 
-.navbar-default .navbar-nav li a{
-  color:black !important;
+.nav-pills .nav-link.active{
+  background-color: black;
+}
+
+.nav-item{
+  color:black;
+}
+
+.navbar a:hover{
+  color:white;
 }
 
 #about.container{
