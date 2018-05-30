@@ -7,6 +7,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
 .wrapper {
   width: 100%;
@@ -162,8 +163,8 @@ image.loading .modal-load{
   margin-bottom: 15px;
 }
 
-.nav .navbar-nav li a{
-  color:black;
+.navbar-default .navbar-nav li a{
+  color:black !important;
 }
 
 #about.container{
