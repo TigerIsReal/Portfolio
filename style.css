@@ -82,7 +82,7 @@ html, body {
   padding-bottom: 190px;
 }
 .jumbotron{
-  background: url('jumbotronbackground.jpg');
+  /* background: url('jumbotronbackground.jpg'); */
   background-repeat:no-repeat;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -142,3 +142,37 @@ image.loading{
 image.loading .modal-load{
   display: block;
 }
+
+#nameline{
+  margin-top:  0px;
+  margin-left: 100px;
+  padding: 20px;
+}
+
+#myname{
+  font-size: 75px;
+  text-align: left;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 0px;
+}
+
+.navbar{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.nav .navbar-nav li a{
+  color:black;
+}
+
+#about.container{
+  margin-top: 50px;
+}
+
+.transparent{
+  border-width: 0px;
+  box-shadow: 0px 0px;
+  background-color:white;
+  border-color: transparent;
+  background:transparent;
