@@ -77,13 +77,9 @@ html, body {
 .portfolioimg {
   cursor: pointer!important;
 }
-.portback{
-  background-color: #203737;
-  padding-top: 50px;
-  padding-bottom: 190px;
-}
+
 .jumbotron{
-  /* background: url('jumbotronbackground.jpg'); */
+  background: url('jumbotronbackground.png');
   background-repeat:no-repeat;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -91,58 +87,7 @@ html, body {
   background-size:cover;
   background-position:center;
 }
-.modal-body{
-  background-color: white;
-}
-.img-responsive{
-  border-radius: 5%;
-  border-width: 2px;
-  border-color: black;
-  border-style: solid;
-}
-.modal-header{
-  color: white;
-}
-.close{
-  color: white !important;
-}
-.modal-header, .modal-footer{
-  background-color: #172727;
-}
 
-#contactme{
-  padding-top:50px;
-  padding-bottom: 113px;
-
-}
-i{
-  margin: 0px 5px 0px 5px;
-}
-
-h3 b, h2 b {
-  color: white;
-}
-
-.modal-load{
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(255,255,255,.8)
-              url('http://i.stack.imgur.com/FhHRx.gif')
-              50% 50%
-              no-repeat
-}
-image.loading{
-  overflow: hidden;
-}
-
-image.loading .modal-load{
-  display: block;
-}
 
 #nameline{
   margin-top:  0px;
@@ -156,12 +101,17 @@ image.loading .modal-load{
   font-weight: bold;
 }
 
+#myjob{
+  margin-top:1rem;
+  color: #404040;
+}
+
 .navbar{
     padding: 1rem 1rem;
 }
 
 .nav-pills .nav-link.active{
-  background-color: black;
+  background-color: #404040;
 }
 
 .nav-item{
@@ -169,16 +119,9 @@ image.loading .modal-load{
 }
 
 .navbar a:hover{
-  color:white;
+  color: #bfbfbf;
 }
 
 #about.container{
   margin-top: 50px;
 }
-
-.transparent{
-  border-width: 0px;
-  box-shadow: 0px 0px;
-  background-color:white;
-  border-color: transparent;
-  background:transparent;
