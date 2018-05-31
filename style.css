@@ -88,6 +88,10 @@ html, body {
   background-position:center;
 }
 
+#frontpage{
+  height: 100%;
+}
+
 #jumbotron{
   margin-bottom: 1rem;
 }
@@ -109,11 +113,7 @@ html, body {
   color: #404040;
 }
 
-#nav-page-top{
-  position: absolute;
-}
-
-.navbar{
+/* .navbar{
     padding: 1rem 1rem;
 }
 
@@ -121,13 +121,13 @@ html, body {
   background-color: #404040;
 }
 
-.nav-item{
+.navbar-nav .nav-item{
   color:black;
 }
 
 .navbar a:hover{
   color: #bfbfbf;
-}
+} */
 
 #about.container{
   margin-top: 1.5rem;
