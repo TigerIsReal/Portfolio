@@ -9,74 +9,6 @@ html, body {
     overflow-x: hidden;
     /* overflow-y: hidden; */
 }
-.wrapper {
-  width: 100%;
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -100px;
-}
-
-.wrapper:after {
-  content: "";
-  display: block;
-}
-.site-footer, .wrapper:after {
-  height: 100px;
-}
-.site-footer {
-  background: orange;
-}
-
-
-.navtext{
-  color: black;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: right;
-}
-
-.navbar-brand{
-  color: #00FA9A;
-  font-weight: bold;
-  font-size: 24px;
-}
-.headerimg{
-  border-radius:50%;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-}
-
-.headertext{
-  color: white;
-}
-.aboutme{
-  padding-top: 40px;
-  margin-bottom: 30px;
-
-}
-
-.aboutmetext{
-   border-right:solid;
-   border-color: black;
-   border-width: 1px;
-}
-.tab-content{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.tabtext{
-  font-size: 25px !important;
-  color: black;
-
-}
-.intabtext{
-  font-size: 25px;
-}
-.portfolioimg {
-  cursor: pointer!important;
-}
 
 .jumbotron{
   background: url('assets/pictures/jumbotronbackground.png');
@@ -113,21 +45,27 @@ html, body {
   color: #404040;
 }
 
-/* .navbar{
+.navbar{
     padding: 1rem 1rem;
+    background-color: white;
 }
 
 .nav-pills .nav-link.active{
   background-color: #404040;
+  color: white !important;
 }
 
-.navbar-nav .nav-item{
+.navbar-light .navbar-nav .nav-link{
+  color:black;
+}
+
+.nav-link{
   color:black;
 }
 
 .navbar a:hover{
   color: #bfbfbf;
-} */
+}
 
 #about.container{
   margin-top: 1.5rem;
