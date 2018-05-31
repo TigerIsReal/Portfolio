@@ -68,10 +68,13 @@ html, body {
 
 #resume{
   background-color: grey;
-  height:100%;
-  width:100%;
 }
 
 .transparent{
   background: transparent;
+}
+
+.portrait{
+  border: 2px solid black;
+  border-radius: 50%;
 }
