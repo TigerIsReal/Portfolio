@@ -79,7 +79,7 @@ html, body {
 }
 
 .jumbotron{
-  background: url('jumbotronbackground.png');
+  background: url('assets/pictures/jumbotronbackground.png');
   background-repeat:no-repeat;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -88,6 +88,9 @@ html, body {
   background-position:center;
 }
 
+#jumbotron{
+  margin-bottom: 1rem;
+}
 
 #nameline{
   margin-top:  0px;
@@ -104,6 +107,10 @@ html, body {
 #myjob{
   margin-top:1rem;
   color: #404040;
+}
+
+#nav-page-top{
+  position: absolute;
 }
 
 .navbar{
@@ -124,4 +131,10 @@ html, body {
 
 #about.container{
   margin-top: 1.5rem;
+}
+
+#resume{
+  background-color: grey;
+  height:100%;
+  width:100%;
 }

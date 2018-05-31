@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<title>Tiger</title>
 	<meta name="description" content="Hello World">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
@@ -18,10 +19,6 @@
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-
-
-</script>
-
 
 </head>
 
@@ -50,16 +47,18 @@
 	</div> -->
 
 	<!-- navbar -->
-	<nav class="justify-content-end navbar navbar-expand-lg navbar-light
-	nav-pills bg-light">
-		<a class="nav-item nav-link active" href="#about">About Me</a>
-	  <a class="nav-item nav-link" href="#resume">Resume</a>
-	  <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-	  <a class="nav-item nav-link" href="#contact">Contact</a>
-	</nav>
+	<div class="row containter-fluid" id="nav-page-top">
+		<nav class="justify-content-end navbar navbar-expand-lg navbar-light
+		nav-pills bg-light">
+			<a class="nav-item nav-link active" href="#about">About Me</a>
+		  <a class="nav-item nav-link" href="#resume">Resume</a>
+		  <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+		  <a class="nav-item nav-link" href="#contact">Contact</a>
+		</nav>
+	</div>
 
 	<!-- huge ass title-->
-	<div class="jumbotron" id="jumbotron">
+	<div class="row jumbotron" id="jumbotron">
 		<div id="nameline">
 			<h1 id="myname"> Hello, <br /> I'm Tiger Sheng. </h1>
 			<h3 id="myjob">
@@ -76,29 +75,35 @@
 	  </div>
 	</div> -->
 
-	<!-- About -->
-	<div class="container" id="about">
-	  <nav class="justify-content-center nav nav-tabs nav-justified">
-	    <a class="nav-item nav-link active" href="#myself" data-toggle:"tab">My Background</a></li>
-	    <a class="nav-item nav-link" href="#skills" data-toggle="tab">My Skills</a></li>
-		</nav>
-		<br />
-		<div class="container">
-			<div id="myself">
-				<div class="row">
-					<div class="col-xs-4 hidden-xs"><img src="http://www.engineering.utoronto.ca/wp-content/blogs.dir/28/files/2015/03/FASE-Signature-2010.png"></div>
-					<div class="col-xs-offset-2 col-xs-8 col-lg-6"><p class="intabtext" style="font-size: 25px;"></p></div>
-	      </div>
-	      <div class="tab-pane fade text-left" id="skills">
+	<!-- About tabs -->
+	<div class="row container-fluid">
+		<div class="container" id="about">
+		  <nav>
+				<div class="justify-content-center nav nav-tabs nav-justified" role="tablist">
+			    <a class="nav-item nav-link active" id="background-tab" href="#background" data-toggle="tab" role="tab"
+					aria-controls="background" aria-selected="true">My Background</a>
+			    <a class="nav-item nav-link" id="skills-tab" href="#skills" data-toggle="tab" role="tab"
+					aria-controls="skills" aria-selected="false">My Skills</a>
+				</div>
+			</nav>
+
+			<div class="tab-content" id="nav-tabcontent">
+				<div class="tab-pane fade show active" id="background" role="tabpanel" aria-labelledby="background-tab">
+					<div class="row">
+						<div class="col" align="center"><img src="assets/pictures/ece.png"></div>
+						<div class="col" align="center"><p>jobs</p></div>
+		      </div>
+				</div>
+	      <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
 	        <p>
 						my goodness
 	        </p>
 	      </div>
-	    </div>
-	  </div>
+		  </div>
+		</div>
 	</div>
 
-	<div class="container-fluid" id="resume" style="height:1000px">
+	<div class="container-fluid" id="resume">
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
