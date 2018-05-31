@@ -46,8 +46,10 @@ html, body {
 }
 
 .navbar{
-    padding: 1rem 1rem;
-    background-color: white;
+    border-width: 1rem 1rem;
+    border-style: solid;
+    border-color: white;
+    background-color: #f8f9fa !important;
 }
 
 .nav-pills .nav-link.active{
