@@ -40,7 +40,7 @@
 	<!--front page-->
 	<div class="container-fluid page">
 		<!-- huge ass title-->
-		<div class="jumbotron container-fluid" id="jumbotron">
+		<div class="jumbotron" id="jumbotron">
 			<br/>
 			<div class="row">
 				<div class="col-1"></div>
@@ -87,8 +87,19 @@
 				<div class="tab-content" id="nav-tabcontent">
 					<div class="tab-pane fade show active" id="background" role="tabpanel" aria-labelledby="background-tab">
 						<div class="row">
-							<div class="col" align="center"><img src="assets/pictures/ece.jpg"></div>
-							<div class="col" align="center"><p>jobs</p></div>
+							<div class="col" align="center">
+								<br/>
+								<button type="button" class="btn transparent" data-container="body" data-toggle="popover" data-placement="top"
+								data-content="I'm studying computer engineering here until 2020. CGPA: 3.97/4.0 (93% avg.)">
+									<img src="assets/pictures/ece.jpg">
+								</button>
+							</div>
+							<div class="col" align="center">
+								<button type="button" class="btn transparent" data-container="body" data-toggle="popover" data-placement="top"
+								data-content="I worked here as an IT summer intern in 2017.">
+									<img src="assets/pictures/Aviva_Logo.svg.png">
+								</button>
+							</div>
 			      </div>
 					</div>
 		      <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
@@ -107,5 +118,9 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
+	<script>
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+	</script>
 </body>
