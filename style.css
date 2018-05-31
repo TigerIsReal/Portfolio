@@ -17,6 +17,7 @@ body{
   padding: 0px;
   scroll-behavior: smooth;
   position: relative;
+  /* overflow-y: hidden; */
 }
 
 .jumbotron{
@@ -34,10 +35,6 @@ body{
   @media screen and (max-width: 768px) {
     body { padding-top: 128px; }
   }
-}
-
-#firstpage{
-  /* padding: 0px !important; */
 }
 
 #jumbotron{
@@ -97,4 +94,14 @@ body{
 
 .btn.icon{
   cursor:default !important;
+}
+
+#resume-title{
+  color:black;
+  padding-top: 2rem;
+}
+
+#resume-pdf{
+  width: 80%;
+  height: 250%;
 }
