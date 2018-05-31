@@ -78,3 +78,7 @@ html, body {
   border: 2px solid black;
   border-radius: 50%;
 }
+
+.btn.icon{
+  cursor:pointer !important;
+}
