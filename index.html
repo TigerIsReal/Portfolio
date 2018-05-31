@@ -17,9 +17,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
   <script src="script.js"></script> -->
+
 </head>
 
-<body data-spy="scroll" data-target="#navbar">
+<body>
 	<!-- top anchor -->
 	<div><div id="top"></div></div>
 
@@ -33,6 +34,7 @@
 						<ul class="nav navbar-nav nav-pills" role="tablist">
 							<a class="nav-item nav-link" href="#top">About Me</a>
 						  <a class="nav-item nav-link" href="#resume">Resume</a>
+							<a class="nav-item nav-link" href="#portfolio">Portfolio</a>
 						</ul>
 					</div>
 				</div>
@@ -89,7 +91,7 @@
 								<button type="button" class="btn transparent"  data-toggle="tooltip" data-placement="top"
 								title="I'm studying computer engineering here until 2020. CGPA: 3.97/4.0 (93% avg.)">
 									<a href="https://www.ece.utoronto.ca/" target="_blank">
-										<img src="assets/pictures/ece.jpg">
+										<img class="img-fluid" src="assets/pictures/ece.jpg">
 									</a>
 								</button>
 							</div>
@@ -97,7 +99,7 @@
 								<button type="button" class="btn transparent"  data-toggle="tooltip" data-placement="top"
 								title="I worked here as an IT summer intern in 2017.">
 									<a href="https://www.avivacanada.com/" target="_blank">
-										<img src="assets/pictures/Aviva_Logo.svg.png">
+										<img class="img-fluid" src="assets/pictures/Aviva_Logo.svg.png">
 									</a>
 								</button>
 							</div>
@@ -109,37 +111,37 @@
 							<div class="col" align="center">
 								<button type="button" class="btn transparent icon"  data-toggle="tooltip" data-placement="top"
 								title="C++/C">
-									<img src="assets/pictures/c++.png">
+									<img class="img-fluid" src="assets/pictures/c++.png">
 								</button>
 							</div>
 							<div class="col" align="center">
 								<button type="button" class="btn transparent icon"  data-toggle="tooltip" data-placement="top"
 								title="HTML/CSS">
-									<img src="assets/pictures/html.png">\
+									<img class="img-fluid" src="assets/pictures/html.png">\
 								</button>
 							</div>
 							<div class="col" align="center">
 								<button type="button" class="btn transparent icon"  data-toggle="tooltip" data-placement="top"
 								title="Java">
-									<img src="assets/pictures/java.png">
+									<img class="img-fluid"src="assets/pictures/java.png">
 								</button>
 							</div>
 							<div class="col" align="center">
 								<button type="button" class="btn transparent icon"  data-toggle="tooltip" data-placement="top"
 								title="Python">
-									<img src="assets/pictures/python.png">
+									<img class="img-fluid" src="assets/pictures/python.png">
 								</button>
 							</div>
 							<div class="col" align="center">
 								<button type="button" class="btn transparent icon"  data-toggle="tooltip" data-placement="top"
 								title="Bootstrap">
-									<img src="assets/pictures/bootstrap.png">
+									<img class="img-fluid" src="assets/pictures/bootstrap.png">
 								</button>
 							</div>
 							<div class="col" align="center">
 								<button type="button" class="btn transparent icon"  data-toggle="tooltip" data-placement="top"
 								title="Matlab">
-									<img src="assets/pictures/Matlab_Logo.png">
+									<img class="img-fluid" src="assets/pictures/Matlab_Logo.png">
 								</button>
 							</div>
 						</div>
@@ -165,18 +167,22 @@
 		</div>
 	</div>
 
+	<!-- portfolio page -->
+	<div class="container-fluid page" id="portfolio">
+	</div>
+
 	<!-- script init -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	<!-- tooltip script -->
 	<script>
-	$(function () {
-		$('[data-toggle="tooltip"]').tooltip()
-	})
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
 	</script>
 	<!-- scrollpsy script -->
 	<script>
-		$('body').scrollspy({ target: '#navbar-example' })
+		$('body').scrollspy({ target: '#navbar', offset: 0})
 	</script>
 </body>
