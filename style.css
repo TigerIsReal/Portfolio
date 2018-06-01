@@ -108,11 +108,14 @@ body{
   padding-top: 2.5rem;
 }
 
+/* #resume-pdf-container{
+  min-height: 65vh;
+} */
+
 #resume-pdf{
-  width: 80%;
+  min-width: 100vh;
   min-height: 65vh;
 }
-
 
 .linkedin:hover{
   color: #0077b5 !important;
