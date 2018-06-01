@@ -32,9 +32,16 @@ body{
 .page{
   height: 100%;
   padding-top: 88px;
-  @media screen and (max-width: 768px) {
-    body { padding-top: 128px; }
-  }
+  margin-top: -88px;
+  background-clip: content-box;
+}
+
+@media screen and (max-width: 768px) {
+  .page{ padding-top: 128px;}
+}
+
+#firstpage{
+  margin-top: 0px !important;
 }
 
 #jumbotron{
@@ -98,12 +105,12 @@ body{
 
 #resume-title{
   color:black;
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
 }
 
 #resume-pdf{
   width: 80%;
-  height: 250%;
+  height: 280%;
 }
 
 
@@ -116,6 +123,6 @@ body{
 }
 
 .link{
-  margin-top: 4px;
-  padding-right: 10px;
+  padding-top: 8px;
+  padding-right: 12px;
 }
