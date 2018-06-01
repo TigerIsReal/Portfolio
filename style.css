@@ -30,7 +30,7 @@ body{
 }
 
 .page{
-  height: 100%;
+  /* height: 100%; */
   padding-top: 88px;
   margin-top: -88px;
   background-clip: content-box;
@@ -110,7 +110,7 @@ body{
 
 #resume-pdf{
   width: 80%;
-  height: 280%;
+  /* height: 280%; */
 }
 
 
@@ -122,9 +122,13 @@ body{
   color: #767676 !important;
 }
 
+.email:hover{
+  color: #767676 !important;
+}
+
 .link{
   padding-top: 8px;
-  padding-right: 12px;
+  padding-right: 8px;
 }
 
 #mycontacts{
@@ -140,4 +144,8 @@ body{
   left:0;
   right:0;
   background:rgba(0,0,0,0.6);
+}
+
+#tel:hover{
+  color: #767676 !important;
 }
